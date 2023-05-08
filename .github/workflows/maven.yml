@@ -3,7 +3,7 @@ name: Java CI with Maven -> Telegram
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 11 * * *"
+    - cron: "*/5 * * * *"
 
 jobs:
   build:
